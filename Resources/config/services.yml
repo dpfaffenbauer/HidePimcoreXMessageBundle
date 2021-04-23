@@ -1,0 +1,4 @@
+services:
+    HidePimcoreXMessageBundle\EventListener\HideMessageListener:
+        tags:
+            - { name: kernel.event_subscriber }
