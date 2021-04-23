@@ -12,12 +12,12 @@
 
 namespace HidePimcoreXMessageBundle\DependencyInjection;
 
-use CoreShop\Bundle\ResourceBundle\DependencyInjection\Extension\AbstractModelExtension;
+use Symfony\Component\DependencyInjection\Extension\Extension;
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
 
-final class HidePimcoreXMessageExtension extends AbstractModelExtension
+final class HidePimcoreXMessageExtension extends Extension
 {
     /**
      * {@inheritdoc}
